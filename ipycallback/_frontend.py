@@ -8,5 +8,5 @@
 Information about the frontend package of the widgets.
 """
 
-module_name = "ipycallback"
+module_name = "monu-callback"
 module_version = "^0.2.5"

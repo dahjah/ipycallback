@@ -1,7 +1,7 @@
 {
-  "name": "ipycallback",
-  "version": "0.2.5",
-  "description": "Use this widget to allow client side (javascript) to trigger event on the server side (python)",
+  "name": "@monudj/monu-callback",
+  "version": "0.0.1",
+  "description": "DO NOT USE: see ipycallback instead. This is for testing purposes. Use this widget to allow client side (javascript) to trigger event on the server side (python)",
   "keywords": [
     "jupyter",
     "jupyterlab",
@@ -13,20 +13,17 @@
     "dist/*.js",
     "css/*.css"
   ],
-  "homepage": "https://github.com/binh-vu/ipycallback",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/binh-vu/ipycallback/issues"
+    "url": ""
   },
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Binh Vu",
-    "email": "binh@toan2.com"
-  },
+  "author": "Monu <dj@monumetric.com>",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binh-vu/ipycallback"
+    "url": "git+https://github.com/dahjah/ipycallback"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:nbextension",
@@ -83,5 +80,11 @@
   },
   "jupyterlab": {
     "extension": "lib/plugin"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
   }
 }
